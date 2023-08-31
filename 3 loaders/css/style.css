@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:black;
+}
+
+.container{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+}
+
+.container .ring1{
+	width:150px;
+	height:150px;
+	border:5px soild;
+	border-color:white;
+	border-radius:100%;
+	position:absolute;
+	
+}
+
+.container .ring1:nth-child(3){
+	position:absolute;
+}
+
